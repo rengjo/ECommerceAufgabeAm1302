@@ -2,6 +2,10 @@
   "name": "1302ecommerce",
   "version": "1.0.0",
   "description": "E-Commerce application",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
     "start": "node main.js",
     "test": "python -m pytest tests/automated_tests/",
@@ -9,15 +13,16 @@
     "test-login": "python -m pytest tests/automated_tests/test_login.py",
     "test-shoppingcart": "python -m pytest tests/automated_tests/test_shopping_cart.py"
   },
-  "lockfileVersion": 3,
-  "requires": true,
-  "packages": {
-    "": {
-      "name": "1302ecommerce",
-      "version": "1.0.0",
-      "license": "ISC"
-    }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rengjo/ECommerceAufgabeAm1302.git"
   },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rengjo/ECommerceAufgabeAm1302/issues"
+  },
+  "homepage": "https://github.com/rengjo/ECommerceAufgabeAm1302#readme",
   "devDependencies": {
     "pytest": "^7.4.3"
   }

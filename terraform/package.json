@@ -1,0 +1,19 @@
+{
+  "name": "terraform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "python -m pytest tests/automated_tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rengjo/ECommerceAufgabeAm1302.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rengjo/ECommerceAufgabeAm1302/issues"
+  },
+  "homepage": "https://github.com/rengjo/ECommerceAufgabeAm1302#readme"
+}
