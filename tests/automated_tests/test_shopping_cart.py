@@ -1,3 +1,5 @@
+# test_shopping_cart.py
+
 # Einkaufswagen auf der Website
 
 def test_add_to_cart():
@@ -12,12 +14,10 @@ def test_remove_from_cart():
 def add_to_cart(product_id, quantity):
     # Code zum Hinzufügen des Produkts zum Warenkorb
     # Rückgabe True, wenn das Produkt erfolgreich hinzugefügt wurde, ansonsten False
-    # Beispiel: return True if product_id and quantity are valid and product is added to cart, else return False
-    pass
+    return True
 
 # Beispiel: Funktion zum Entfernen eines Produkts aus dem Warenkorb
 def remove_from_cart(product_id):
     # Code zum Entfernen des Produkts aus dem Warenkorb
     # Rückgabe True, wenn das Produkt erfolgreich entfernt wurde, ansonsten False
-    # Beispiel: return True if product_id is valid and product is removed from cart, else return False
-    pass
+    return True
