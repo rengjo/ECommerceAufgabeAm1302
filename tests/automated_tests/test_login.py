@@ -1,5 +1,3 @@
-# test_login.py
-
 # Anmeldung auf der Website
 
 def test_successful_login():
@@ -14,4 +12,5 @@ def test_invalid_credentials():
 def login(username, password):
     # Code für die Anmeldung auf der Website
     # Rückgabe True, wenn die Anmeldung erfolgreich ist, ansonsten False
+    # Beispiel: return True if username and password are valid and user is logged in, else return False
     pass

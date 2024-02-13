@@ -1,5 +1,3 @@
-# test_checkout.py
-
 # Beispieltestskript für den Checkout-Prozess auf der Website
 
 def test_successful_checkout():
@@ -10,4 +8,5 @@ def test_successful_checkout():
 def checkout():
     # Code für den Checkout-Prozess auf der Website
     # Rückgabe True, wenn der Checkout erfolgreich ist, ansonsten False
+    # Beispiel: return True if checkout process is successful, else return False
     pass
